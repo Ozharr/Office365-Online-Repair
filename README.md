@@ -24,11 +24,11 @@ A PowerShell script to silently perform an **online repair** for Microsoft Offic
 
 ## Installation & Usage
 
-1.  **Download** the `OfficeOnlineRepair.ps1` script from this repository.
+1.  **Download** the `O365OnlineRepair.ps1` script from this repository.
 2.  **Open PowerShell as Administrator.**
 3.  **Navigate** to the script's directory: `cd C:\Path\To\Your\Script`
 4.  **Unblock** the script (if downloaded from the internet): `Unblock-File -Path .\OfficeOnlineRepair.ps1`
-5.  **Run** the script: `.\OfficeOnlineRepair.ps1`
+5.  **Run** the script: `.\O365OnlineRepair.ps1`
 
 ### **Deployment with IT Management Tools**
 
@@ -36,7 +36,7 @@ This script is ideal for deployment using tools like **PDQ Deploy**, **Microsoft
 
 You can typically:
 * Create a new package or application in your chosen deployment tool.
-* Add a "PowerShell Script" step and upload this `OfficeOnlineRepair.ps1` file.
+* Add a "PowerShell Script" step and upload this `O365OnlineRepair.ps1` file.
 * Configure the deployment to run with administrator privileges on target machines.
 
 ---
